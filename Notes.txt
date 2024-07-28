@@ -1,0 +1,15 @@
+Frontend streamlit
+  + hello world - done
+  + optimize start command - done
+  + send request to flask - done
+  + change titles and greetings: done
+  + send name to backend
+    + if accepted, welcome them by displaying "Hello, DC student!"
+    + if not accepted, reject them by displaying "You're not in the list, please buy you  weapon and comeback!"
+Backend flask
+  + hello flask - done
+  + receive name from front-end, /login check if it's in the registered list ["Michael", "Tommy", "Franklin"]
+    + if name is in list, welcome them by sending back to front-end json accepted = true
+    + if name not in list, reject by sending back to front-end json accepted = false
+
+Database mongodb
